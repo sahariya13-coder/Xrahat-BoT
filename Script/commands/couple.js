@@ -2,7 +2,7 @@ module.exports.config = {
     name: "couple",
     version: "2.1.0",
     hasPermssion: 0,
-    credits: "🔰𝐑𝐀𝐇𝐀𝐓 𝐈𝐒𝐋𝐀𝐌🔰",
+    credits: "🔰MSK🔰",
     description: "Ship two people together",
     commandCategory: "🩵love🩵",
     usages: "[@mention/reply/UID/link/name]",
@@ -109,7 +109,7 @@ module.exports.run = async function ({ event, api, args }) {
     } else {
         // No target specified
         return api.sendMessage(
-            "❌রাহাদ বসকে ডাক দে🫩\nকীভাবে কমান্ড ব্যবহার করতে হয় শিখায় দিবো🥴",
+            "❌SHAHRIYAR বসকে ডাক দে🫩\nকীভাবে কমান্ড ব্যবহার করতে হয় শিখায় দিবো🥴",
             threadID, messageID
         );
     }
