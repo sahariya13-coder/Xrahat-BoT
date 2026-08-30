@@ -28,7 +28,7 @@ module.exports.handleEvent = async function ({ api, event, Users }) {
     "fork2": "https://github.com/Rahat-Boss/Rahat_Bot.git",
     "pro": "😎 Nice vibe!",
     "🙄🙄🙄": "🙄🙄🙄",
-    "Rahat": "Bot owner😄",
+    "msk": "Bot owner😄",
     "owner": "👑 Owner: SHAHARIYAR\nFacebook: https://www.facebook.com/100070258821129",
     "admin": "🔰SHAHARIYAR🔰",
     "babi": "😊 দুষ্টু তুমি",
