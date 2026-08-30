@@ -6,7 +6,7 @@ module.exports.config = {
 	name: "help",
 	version: "3.1.0",
 	hasPermssion: 0,
-	credits: "🔰𝐑𝐀𝐇𝐀𝐓 𝐈𝐒𝐋𝐀𝐌🔰",
+	credits: "🔰MSK🔰",
 	description: "style help menu",
 	commandCategory: "system",
 	usages: "[command list]",
@@ -26,7 +26,7 @@ module.exports.languages = {
 ┃ 📄 Usage: %2
 ┃ 📜 Description: %3
 ┃ 🔑 Permission: %4
-┃ 👨‍💻 Credit:Rahat Islam
+┃ 👨‍💻 Credit:SHAHARIYAR
 ┃ 📂 Category: %6
 ┃ ⏳ Cooldown: %7s
 ┣━━━━━━━━━━━━━━━━┫
@@ -130,7 +130,7 @@ let isFirstGroup = true;
    body += `\n┣━━━━━━━━━━━━━━━━┫
 ┃ 📌 𝙋𝙍𝙀𝙁𝙄𝙓: ${prefix}
 ┃ 📊 𝗧𝗢𝗧𝗔𝗟: ${commands.size} cmds
-┃ 👑 𝗢𝗪𝗡𝗘𝗥: ${global.config.Xrahat_Name || ""}
+┃ 👑 𝗢𝗪𝗡𝗘𝗥: ${SAHARIYAR}
 ╰━━━━━━━━━━━━━━━━╯`;
 	try {
 		const { attachments, cleanup } = await getGifAttachment();
