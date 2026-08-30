@@ -6,7 +6,7 @@ module.exports.config = {
   name: "pet",
   version: "2.0.0",
   hasPermssion: 0,
-  credits: "🔰𝐑𝐀𝐇𝐀𝐓 𝐈𝐒𝐋𝐀𝐌🔰",
+  credits: "🔰MSK🔰",
   description: "Pet a tagged user",
   commandCategory: "🤣funny🤣",
   usages: "pet [@mention/reply/UID/link/name]",
@@ -102,7 +102,7 @@ module.exports.run = async function ({ api, event, Users, args }) {
     
     if (!targetID) {
       return api.sendMessage(
-        "❌রাহাদ বসকে ডাক দে🫩\nকীভাবে কমান্ড ব্যবহার করতে হয় শিখায় দিবো🥴",
+        "❌SHAHARIYAR বসকে ডাক দে🫩\nকীভাবে কমান্ড ব্যবহার করতে হয় শিখায় দিবো🥴",
         threadID,
         messageID
       );
