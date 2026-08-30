@@ -2,7 +2,7 @@ module.exports.config = {
   name: "birthday",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "🔰𝐑𝐀𝐇𝐀𝐓 𝐈𝐒𝐋𝐀𝐌🔰",
+  credits: "🔰MSK🔰",
   description: "Shows birthday countdown or wishes",
   usePrefix: true,
   commandCategory: "info",
@@ -57,13 +57,13 @@ module.exports.run = async ({ api, event }) => {
   // 🎉 Birthday wish
   if (days === 0 && hours === 0 && minutes === 0 && seconds <= 59) {
     return send(
-      `🎉 আজ Rahat boss এর জন্মদিন!\n\n🥳 সবাই উইশ করো 💙\n🎂 6 February 2009${link}`
+      `🎉 আজ SHAHARIYAR এর জন্মদিন!\n\n🥳 সবাই উইশ করো 💙\n🎂 22 May 2008${link}`
     );
   }
 
   // ⏳ Countdown
   return send(
-    `📅 Rahat boss এর জন্মদিন আসতে বাকি:\n\n` +
+    `📅 SHAHARIYAR এর জন্মদিন আসতে বাকি:\n\n` +
     `⏳ ${days} দিন\n` +
     `🕒 ${hours} ঘণ্টা\n` +
     `🕑 ${minutes} মিনিট\n` +
