@@ -3,7 +3,7 @@ const moment = require("moment-timezone");
 module.exports.config = {
   name: "listban",
   version: "2.0.0",
-  credits: "🔰𝐑𝐀𝐇𝐀𝐓 𝐈𝐒𝐋𝐀𝐌🔰",
+  credits: "🔰MSK🔰",
   hasPermssion: 2,
   description: "List and manage banned users/threads",
   commandCategory: "System",
@@ -63,7 +63,7 @@ module.exports.run = async function({ api, event, args, Threads, Users }) {
       }
       return api.sendMessage(
         listBanned.length != 0 ?
-          `╭───× 𝐛𝐚𝐧 𝐥𝐢𝐬𝐭 ×───╮\n│🔰𝐑𝐀𝐇𝐀𝐓 𝐁𝐎𝐓🔰\n│ ───× \n${listBanned.join("\n│ ───× \n")}\n╰─────────────⧕\n\n✨ Reply with number to unban group.` :
+          `╭───× 𝐛𝐚𝐧 𝐥𝐢𝐬𝐭 ×───╮\n│🔰MAHIRU🔰\n│ ───× \n${listBanned.join("\n│ ───× \n")}\n╰─────────────⧕\n\n✨ Reply with number to unban group.` :
           "⚠ No banned groups!",
         threadID,
         (err, info) => {
@@ -98,7 +98,7 @@ module.exports.run = async function({ api, event, args, Threads, Users }) {
       }
       return api.sendMessage(
         listBanned.length != 0 ?
-          `╭───× 𝐛𝐚𝐧 𝐥𝐢𝐬𝐭 ×───╮\n│🔰𝐑𝐀𝐇𝐀𝐓 𝐁𝐎𝐓🔰\n│ ───× \n${listBanned.join("\n│ ───× \n")}\n╰─────────────⧕\n\n✨ Reply with number to unban user.` :
+          `╭───× 𝐛𝐚𝐧 𝐥𝐢𝐬𝐭 ×───╮\n│🔰MAHIRU🔰\n│ ───× \n${listBanned.join("\n│ ───× \n")}\n╰─────────────⧕\n\n✨ Reply with number to unban user.` :
           "⚠ No banned users!",
         threadID,
         (err, info) => {
