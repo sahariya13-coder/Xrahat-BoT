@@ -75,7 +75,7 @@ module.exports.run = async ({ event, api, Users, args }) => {
         const { targetID, targetName } = await getTargetUser(api, event, [args[1]], Users);
         
         if (!targetID) {
-            return api.sendMessage("❌রাহাদ বসকে ডাক দে🫩\nকীভাবে কমান্ড ব্যবহার করতে হয় শিখায় দিবো🥴", threadID, messageID);
+            return api.sendMessage("❌MSK বসকে ডাক দে🫩\nকীভাবে কমান্ড ব্যবহার করতে হয় শিখায় দিবো🥴", threadID, messageID);
         }
 
         let data = (await Users.getData(targetID)).data || {};
@@ -124,7 +124,7 @@ module.exports.run = async ({ event, api, Users, args }) => {
 
     if (!targetID) {
         return api.sendMessage(
-            "❌রাহাদ বসকে ডাক দে🫩\nকীভাবে কমান্ড ব্যবহার করতে হয় শিখায় দিবো🥴",
+            "❌MSK বসকে ডাক দে🫩\nকীভাবে কমান্ড ব্যবহার করতে হয় শিখায় দিবো🥴",
             threadID,
             messageID
         );
