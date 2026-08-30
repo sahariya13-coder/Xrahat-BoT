@@ -169,7 +169,7 @@ module.exports.run = async ({ event, api, args }) => {
   if (!listRequest || listRequest.length === 0)
     return api.sendMessage("✅ | No friend requests found.", event.threadID);
 
-  let msg = `╭─‣🔰𝐒𝐮𝐠𝐠𝐞𝐬𝐭𝐞𝐝 𝐅𝐫𝐢𝐞𝐧𝐝𝐬🔰\n├‣ 𝐀𝐝𝐦𝐢𝐧:𝐑𝐀𝐇𝐀𝐓 𝐈𝐒𝐋𝐀𝐌\n├‣ 𝐓𝐨𝐭𝐚𝐥 𝐔𝐬𝐞𝐫𝐬: ${listRequest.length}\n╰────────────◊\n`;
+  let msg = `╭─‣🔰𝐒𝐮𝐠𝐠𝐞𝐬𝐭𝐞𝐝 𝐅𝐫𝐢𝐞𝐧𝐝𝐬🔰\n├‣ 𝐀𝐝𝐦𝐢𝐧:MSK\n├‣ 𝐓𝐨𝐭𝐚𝐥 𝐔𝐬𝐞𝐫𝐬: ${listRequest.length}\n╰────────────◊\n`;
 
   let i = 0;
   for (const user of listRequest) {
