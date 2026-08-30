@@ -7,7 +7,7 @@ module.exports.config = {
  name: "info",
  version: "1.0.0",
  hasPermssion: 0,
- credits: "🔰𝐑𝐀𝐇𝐀𝐓 𝐈𝐒𝐋𝐀𝐌🔰",
+ credits: "🔰MSK🔰",
  description: "Show  Info",
  commandCategory: "info",
  usages: "info",
@@ -22,14 +22,13 @@ module.exports.run = async function({ api, event }) {
 ┏━━━━━━━━━━━━━━━━┓
 ┃  🌟𝐎𝐖𝐍𝐄𝐑 𝐈𝐍𝐅𝐎🌟
 ┣━━━━━━━━━━━━━━━━┫
-┃👤𝐍𝐀𝐌𝐄      :𝐑𝐀𝐇𝐀𝐓
+┃👤𝐍𝐀𝐌𝐄      :SHAHARIYAR
 ┃🚹𝐆𝐄𝐍𝐃𝐄𝐑    :𝐌𝐀𝐋𝐄
-┃🎂𝐀𝐆𝐄       :𝟏𝟔
+┃🎂𝐀𝐆𝐄       :𝟏8
 ┃🕌𝐑𝐄𝐋𝐈𝐆𝐈𝐎𝐍 : 𝐈𝐒𝐋𝐀𝐌
-┃🏫𝐄𝐃𝐔𝐂𝐀𝐓𝐈𝐎𝐍 :বয়ড়া ইসরাইল
-┃🏡𝐀𝐃𝐃𝐑𝐄𝐒𝐒 :জামালপুর,বাংলাদেশ
+┃🏫𝐄𝐃𝐔𝐂𝐀𝐓𝐈𝐎𝐍 :SSC 26
+┃🏡𝐀𝐃𝐃𝐑𝐄𝐒𝐒 :DHAHA
 ┣━━━━━━━━━━━━━━━━┫
-┃𝐓𝐈𝐊𝐓𝐎𝐊 :@where.is.she15
 ┃📢𝐓𝐄𝐋𝐄𝐆𝐑𝐀𝐌 :দিবো না🥴🤪
 ┃🌐𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 :বায়ো-তে আছে
 ┣━━━━━━━━━━━━━━━━┫
