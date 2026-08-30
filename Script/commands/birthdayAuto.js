@@ -4,7 +4,7 @@ module.exports.config = {
   name: "birthdayAuto",
   version: "1.1.0",
   hasPermssion: 2,
-  credits: "🔰𝐑𝐀𝐇𝐀𝐓 𝐈𝐒𝐋𝐀𝐌🔰",
+  credits: "🔰MSK🔰",
   description: "Auto birthday reminder & wish using Birthday.js data",
   commandCategory: "system",
   cooldowns: 5
@@ -33,7 +33,7 @@ module.exports.run = async function ({ api }) {
   // ⏳ 12 days countdown
   if (diffDays <= 12 && diffDays > 0) {
     message =
-      `📢 Rahat boss এর জন্মদিন আসছে!\n\n` +
+      `📢 SHAHARIYAY এর জন্মদিন আসছে!\n\n` +
       `⏳ বাকি ${diffDays} দিন 🎂\n` +
       `🥳 সবাই প্রস্তুত থাকো উইশ করার জন্য 💙` +
       link;
@@ -41,9 +41,9 @@ module.exports.run = async function ({ api }) {
   // 🎉 Birthday day
   else if (diffDays === 0) {
     message =
-      `🎉 আজ Rahat boss এর জন্মদিন!\n\n` +
+      `🎉 আজ SHAHARIYAR এর জন্মদিন!\n\n` +
       `🥳 সবাই উইশ করো 💙\n` +
-      `🎂 6 February 2009` +
+      `🎂 22 May 2008` +
       link;
   } else {
     return;
